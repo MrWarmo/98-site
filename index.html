@@ -15,7 +15,7 @@
     </div>
 
     <!-- Window -->
-    <div class="window" style="z-index: 1;">
+    <div class="window" style="z-index: 1; top: 100px; left: 100px;">
       <div class="title-bar">
         <div class="title-bar-text">My Computer</div>
         <div class="title-bar-controls">
@@ -31,6 +31,31 @@
           <li>3½ Floppy (A:)</li>
           <li>CD-ROM Drive (D:)</li>
         </ul>
+      </div>
+      <div class="status-bar">
+        <p class="status-bar-field">Press F1 for help</p>
+        <p class="status-bar-field">Page 1</p>
+        <p class="status-bar-field">CPU Usage: 14%</p>
+      </div>
+    </div>
+
+    <!-- Second Window -->
+    <div class="window" style="z-index: 2; top: 180px; left: 220px;">
+      <div class="title-bar">
+        <div class="title-bar-text">Notepad</div>
+        <div class="title-bar-controls">
+          <button aria-label="Minimize"></button>
+          <button aria-label="Maximize"></button>
+          <button aria-label="Close"></button>
+        </div>
+      </div>
+      <div class="window-body">
+        <textarea style="width:100%;height:100px;">This is Notepad. Type something!</textarea>
+      </div>
+      <div class="status-bar">
+        <p class="status-bar-field">Ln 1, Col 1</p>
+        <p class="status-bar-field">100%</p>
+        <p class="status-bar-field">Windows 98</p>
       </div>
     </div>
   </div>
