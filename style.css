@@ -1,0 +1,36 @@
+
+    body {
+      background: #008080; /* Windows 98 teal desktop background */
+      margin: 0;
+      height: 100vh;
+      overflow: hidden;
+      font-family: "Pixelated MS Sans Serif", sans-serif;
+    }
+
+    .desktop {
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+
+    .icon {
+      width: 80px;
+      text-align: center;
+      color: white;
+      margin: 20px;
+      cursor: pointer;
+    }
+
+    .icon img {
+      display: block;
+      margin: 0 auto 5px;
+      width: 32px;
+      height: 32px;
+    }
+
+    .window {
+      position: absolute;
+      top: 100px;
+      left: 100px;
+      width: 400px;
+    }
